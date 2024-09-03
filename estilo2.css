@@ -98,8 +98,6 @@ nav {
 img {
     width: 500px;
     height: 500px;
-    top: 30%;
-    right: 37%;
 }
 
 .invisivel {
@@ -122,6 +120,7 @@ img {
 .botao:hover {
     cursor: pointer;
 }
+
 
 .overall{
     display:flex;

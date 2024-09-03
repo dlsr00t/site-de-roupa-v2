@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    outline:none;
+    text-decoration:none;
+    box-sizing:border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+
+
+body {
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+
+.texto {
+    font-size: large;
+    width: 300px;
+    height: 50px;
+    border-bottom: 1px solid;
+    margin:5px;
+}
+
+.nav-bar {
+    background-color: black;
+    color: white;
+}
+
+
+
+.navegacao {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    /*
+    padding-top: 10px;
+    padding-bottom:9px;
+    */
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position:relative;
+    display:inline-block;
+    border-bottom: 1px solid transparent;
+    transition: 1s;
+}
+
+.navegacao:hover{
+
+    border-bottom: 1px solid white;
+}
+
+.sla{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.drop{
+    display: none;
+    position: absolute;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /*padding: 12px 16px;*/
+    z-index: 1;
+    
+    margin-top:0.85rem;
+    
+    
+}
+
+.drop a {
+    display: block;
+}
+
+.item{
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    color:black;
+}
+
+.item:hover{
+    border-bottom: 1px solid black;
+}
+
+
+.trexo{
+    display:inline-block;
+    position:relative;
+    font-size: 35px;
+    border-bottom:2px solid transparent;
+    border-right:2px solid transparent;
+    /*
+    padding-top: 10px;
+    padding-bottom:10px;
+    */
+}
+
+.trexo:hover{
+    border-bottom:2px solid white;
+    border-right:2px solid white;
+    border-bottom-right-radius: 10px;
+}
+
+.trexo:hover .drop {
+    display: block;
+}
+
+
+
+#button-submit{
+    cursor:pointer;
+    border:none;
+    border-radius:10px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+#button-submit:active{
+    color:white;
+    background-color: black;
+}
+
+#texto-botao{
+    display:flex;
+    min-width: 100%;
+    justify-content: center;
+}
+
+.formulario{
+    position:absolute;
+    min-height:90%;
+    min-width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+#produtos{
+    text-decoration: none;
+    color: white;
+}
+
+.real-nav{
+    height:4rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+
+
+

@@ -1,0 +1,140 @@
+h1 {
+    font-size: 40px;
+}
+
+
+body {
+    text-align: center;
+    font-size: xx-large;
+}
+
+div {
+    position: static;
+}
+
+.texto {
+    font-size: 11px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(202, 202, 202);
+
+}
+
+nav {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.navegacao {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.dropdown {
+    display: inline;
+}
+
+.conteudo {
+    display: inline;
+}
+
+.conteudo a {
+    display: none;
+}
+
+.dropdown:hover .conteudo a {
+    display: block;
+    width: 20%;
+}
+
+.navegacao:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.cadastro {
+    border: 3px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(99, 99, 99);
+    background-color: rgb(224, 224, 224);
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.entrar{
+    font-size: 11px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(202, 202, 202);
+
+}
+
+.entrar:hover {
+    background-color: rgb(124, 124, 124);
+    cursor: pointer;
+    color: white;
+}
+
+.form {
+    margin-block-end:30px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    top: 30%;
+    right: 37%;
+}
+
+.invisivel {
+    display: none;
+}
+
+.zoom {
+    width: 1000px;
+    height: 1000px;
+}
+
+.botao {
+   border-radius: 10px;
+   border-width: 0px;
+   color: rgb(185, 185, 185);
+   z-index: 1;
+   font-size: 20px;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.overall{
+    display:flex;
+    height:100%;
+    border:1px solid black;
+}
+
+#botao1 {
+    display:flex;
+    
+}
+
+#botao2 {
+    display:flex;
+    justify-content: flex-end;
+}

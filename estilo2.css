@@ -1,4 +1,4 @@
-h1 {
+/*h1 {
     font-size: 40px;
 }
 
@@ -93,7 +93,7 @@ nav {
 
 .form {
     margin-block-end:30px;
-}
+}*/
 
 img {
     width: 500px;
@@ -137,4 +137,8 @@ img {
 #botao2 {
     display:flex;
     justify-content: flex-end;
+}
+
+.opaco {
+    opacity: 0.15;
 }

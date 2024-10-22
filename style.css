@@ -19,6 +19,7 @@
     color: white;
     border-radius: 10px;
     padding: 15px;
+    margin:8px;
 }
 
 
@@ -47,7 +48,8 @@
     max-width:500px;
     min-height:500px;
     margin:auto;
-    border:2px solid purple;
+    /* border:2px solid purple; */
+
 }
 
 .carrossel{
@@ -56,7 +58,8 @@
     flex-wrap:nowrap;
     justify-content:space-between;
     align-items:center;
-    border:2px solid black;
+    /*border:2px solid black;*/
+
 }
 
 .botao {
@@ -65,10 +68,19 @@
     border-width: 0px;
     font-size: 30px;
     border-radius:100%;
+    margin:auto;
 }
 
 .botao:hover {
     cursor: pointer;
+}
+
+#botaoEsquerdo{
+    margin-right:10px;
+}
+
+#botaoDireito{
+    margin-left:10px;
 }
 
 .imagens{

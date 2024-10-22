@@ -4,169 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, inicial-scale=1.0">
         <title>Inicio</title>
-        <link rel="stylesheet" href="inicio.css">
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
     </head>
     <body>
-        <script>
-            let i = 0;
-            //const imagens = ["camiseta", "calca", "moletom"]
-            const imagens = ["moletom", "calca", "camiseta"]
-            function tras() {
-                const imagem = document.getElementById(imagens[0]);
-                const imagem2 = document.getElementById(imagens[1]);
-                const imagem3 = document.getElementById(imagens[2]);
 
-                if (i >= 0){
-                    i = i - 1
-                }
-                if (i < 0){
-                    i = 2
-                }
-
-                if (i == 0){
-                    imagem.classList.add('invisivel')
-                    imagem2.classList.add('invisivel')
-                    imagem3.classList.add('invisivel')
-                    imagem3.classList.remove('invisivel')
-                    console.log(i)
-                    /*imagem.classList.add('invisivel')
-                    imagem2.classList.add('invisivel')
-                    imagem3.classList.add('invisivel')
-                    imagem.classList.remove('invisivel')
-                    console.log(i)*/
-                }
-
-                if (i == 1){
-                    /*imagem.classList.add('invisivel')
-                    imagem2.classList.add('invisivel')
-                    imagem3.classList.add('invisivel')
-                    imagem2.classList.remove('invisivel')
-                    console.log(i)*/
-                    imagem.classList.add('invisivel')
-                    imagem2.classList.add('invisivel')
-                    imagem3.classList.add('invisivel')
-                    imagem.classList.remove('invisivel')
-                    console.log(i)
-                }
-
-                if (i == 2){
-                    imagem.classList.add('invisivel')
-                    imagem2.classList.add('invisivel')
-                    imagem3.classList.add('invisivel')
-                    imagem2.classList.remove('invisivel')
-                    console.log(i)
-                    /*imagem.classList.add('invisivel')
-                    imagem2.classList.add('invisivel')
-                    imagem3.classList.add('invisivel')
-                    imagem3.classList.remove('invisivel')
-                    console.log(i)*/
-                }
-
-            }
-            function slide() {
-                const imagem = document.getElementById(imagens[0]);
-                const imagem2 = document.getElementById(imagens[1]);
-                const imagem3 = document.getElementById(imagens[2]);
-
-                if (i == 0){
-                    imagem.classList.add('invisivel')
-                    imagem2.classList.add('invisivel')
-                    imagem3.classList.add('invisivel')
-                    imagem.classList.remove('invisivel')
-                    i = i + 1
-                    console.log(i)
-                }
-
-                if (i == 1){
-                    imagem.classList.add('invisivel')
-                    imagem2.classList.add('invisivel')
-                    imagem3.classList.add('invisivel')
-                    imagem2.classList.remove('invisivel')
-                    i = i + 1
-                    console.log(i)
-                    return;
-                }
-
-                if (i == 2){
-                    imagem.classList.add('invisivel')
-                    imagem2.classList.add('invisivel')
-                    imagem3.classList.add('invisivel')
-                    imagem3.classList.remove('invisivel')
-                    i = i + 1
-                    console.log(i)
-                    return;
-                }
-
-                if (i == 3) {
-                    imagem.classList.remove('invisivel')
-                    i = 0 
-                    console.log(i)
-                    return
-                }
-
-                /*
-                const imagem = document.getElementById(imagens[0]);
-                const imagem2 = document.getElementById(imagens[1]);
-                const imagem3 = document.getElementById(imagens[2]);
-                if (i == 0) {
-                    imagem.classList.add('invisivel')
-                    i = i + 1
-                    return;
-                }
-                if (i == 1) {
-                    imagem2.classList.add('invisivel')
-                    i = i + 1  
-                    return; 
-                }
-                if (i == 2) {
-                    imagem3.classList.add('invisivel') 
-                    imagem.classList.remove('invisivel')
-                    i = i + 1 
-                    return;
-                }
-                if (i == 3) {
-                    imagem.classList.add('invisivel') 
-                    imagem2.classList.remove('invisivel')
-                    i = i + 1  
-                    return;
-                }
-                if (i == 4) {
-                    imagem2.classList.add('invisivel') 
-                    imagem3.classList.remove('invisivel')
-                    i = i + 1;  
-                    return;
-                }
-                if (i == 5) {
-                    imagem.classList.remove('invisivel')
-                    imagem2.classList.remove('invisivel')
-                    imagem3.classList.remove('invisivel')
-                    i = 0;
-                    return;
-                }
-                */
-
-                /*
-                const imagem = document.getElementById(imagens[i]);
-
-                imagem.classList.add('invisivel')
-
-
-                if (i <= imagens.length){
-                    i = i + 1;
-                }
-
-                if (i >= imagens.length) {
-                    i = 0;
-                }
-
-                const imagem2 = document.getElementById(imagens[i]);
-                imagem2.classList.remove('invisivel')
-                */
-            }
-            setInterval(slide, 5000)
-            
-        </script>
-        <nav>
+        <nav class="nav-bar">
             <a class="navegacao" href="./inicio.html">Iní­cio</a>
             <a class="navegacao">Produtos</a>
             <a class="navegacao" href="./Entrar/login.html">Login</a>
@@ -174,13 +19,15 @@
             <a class="navegacao">Contato</a>
         </nav>
         <div class="overall">
-            <button class="botao" id="botao1" onclick="tras()"><</button>
-
-            <a><img class="img-css" id="camiseta" src="./assets/camiseta.avif"></a>
-            <a><img class="img-css" id="calca" src="./assets/calca.webp"></a>
-            <a><img class="img-css" id="moletom" src="./assets/moletom.webp"></a>
-
-            <button class="botao" id="botao2" onclick="slide()">></button>
+            <div class="carrossel">
+                <button class="botao" id="botaoEsquerdo"><ion-icon name="arrow-back-circle-outline"></ion-icon></button>
+                <div class="imagens">
+                    <a><img class="img-css" id="camiseta" src="./assets/camiseta.avif"></a>
+                    <a><img class="img-css" id="calca" src="./assets/calca.webp"></a>
+                    <a><img class="img-css" id="moletom" src="./assets/moletom.webp"></a>
+                </div>
+                <button class="botao" id="botaoDireito"><ion-icon name="arrow-forward-circle-outline"></ion-icon></button>
+            </div>
         </div>
+        <script src="main.js"></script>
     </body>
-    

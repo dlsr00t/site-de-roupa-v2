@@ -1,0 +1,95 @@
+:root{
+    background-color:#5f5f5f;
+}
+
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    outline:none;
+    text-decoration:none;
+    box-sizing:border-box;
+}
+
+.nav-bar{
+
+    text-align:center;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.navegacao {
+    text-decoration:none;
+    color:white;
+    font-size:30px;
+    margin-right:50px;
+    margin-left:50px;
+}
+
+.navegacao:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+
+
+
+.overall{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    position:relative;
+    margin-top:10px;
+    max-width:500px;
+    min-height:500px;
+    margin:auto;
+    border:2px solid purple;
+}
+
+.carrossel{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+    border:2px solid black;
+}
+
+.botao {
+    display:flex;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 30px;
+    border-radius:100%;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.imagens{
+    display:flex;
+}
+
+.img-css{
+    display:flex;
+    flex-direction:row;
+    max-width:100%;
+    max-height:100%;
+}
+
+#camiseta{
+    display:flex;
+}
+
+#calca{
+    display:none;
+}
+
+#moletom{
+    display:none;
+}

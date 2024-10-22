@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <title>Inicio</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    </head>
+    <body>
+
+        <nav class="nav-bar">
+            <a class="navegacao" href="./inicio.html">Iní­cio</a>
+            <a class="navegacao">Produtos</a>
+            <a class="navegacao" href="./Entrar/login.html">Login</a>
+            <a class="navegacao" href="./Entrar/cadastro.html">Cadastre-se</a>
+            <a class="navegacao">Contato</a>
+        </nav>
+        <div class="overall">
+            <div class="carrossel">
+                <button class="botao" id="botaoDireito" onclick="tras()"><ion-icon name="arrow-back-circle-outline"></ion-icon></button>
+                <div class="imagens">
+                    <a><img class="img-css" id="camiseta" src="./assets/camiseta.avif"></a>
+                    <a><img class="img-css" id="calca" src="./assets/calca.webp"></a>
+                    <a><img class="img-css" id="moletom" src="./assets/moletom.webp"></a>
+                </div>
+                <button class="botao" id="botaoEsquerdo" onclick="slide()"><ion-icon name="arrow-forward-circle-outline"></ion-icon></button>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
